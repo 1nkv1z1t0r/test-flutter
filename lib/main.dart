@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:test_era_developers/page/news_page/news_page.dart';
 
 void main() {
   runApp(const ForestVPNTestApp());
@@ -11,11 +12,7 @@ class ForestVPNTestApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'ForestVPN test',
-      home: Scaffold(
-        body: Center(
-          child: Text('News screen'),
-        ),
-      ),
+      home: NewsPage(),
     );
   }
 }
